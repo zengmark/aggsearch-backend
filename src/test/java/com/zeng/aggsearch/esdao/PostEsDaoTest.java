@@ -71,6 +71,12 @@ public class PostEsDaoTest {
     }
 
     @Test
+    void testFindByTitle() {
+        List<PostEsDTO> postEsDTOS = postEsDao.findByTitle("鱼皮");
+        System.out.println(postEsDTOS);
+    }
+
+    @Test
     void testCount() {
         System.out.println(postEsDao.count());
     }
