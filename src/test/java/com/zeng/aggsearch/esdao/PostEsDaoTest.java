@@ -51,11 +51,11 @@ public class PostEsDaoTest {
     void testAdd() {
         PostEsDTO postEsDTO = new PostEsDTO();
         postEsDTO.setId(1L);
-        postEsDTO.setTitle("test");
-        postEsDTO.setContent("test");
-        postEsDTO.setTags(Arrays.asList("java", "python"));
-        postEsDTO.setThumbNum(1);
-        postEsDTO.setFavourNum(1);
+        postEsDTO.setTitle("曾启霖");
+        postEsDTO.setContent("Java");
+        postEsDTO.setTags(Arrays.asList("java"));
+//        postEsDTO.setThumbNum(1);
+//        postEsDTO.setFavourNum(1);
         postEsDTO.setUserId(1L);
         postEsDTO.setCreateTime(new Date());
         postEsDTO.setUpdateTime(new Date());

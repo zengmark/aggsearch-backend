@@ -25,5 +25,7 @@ public class SearchVO implements Serializable {
 
     private List<Picture> pictureList;
 
+    private List<Object> dataList;
+
     private static final long serialVersionUID = 1L;
 }

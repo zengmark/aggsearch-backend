@@ -24,7 +24,6 @@ public class FetchInitPostList implements CommandLineRunner {
     @Resource
     private PostService postService;
 
-
     @Override
     public void run(String... args) throws Exception {
         // 1、获取数据
